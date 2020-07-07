@@ -175,4 +175,5 @@ h6 {
 
 #main-showcase .showcase-content {
   z-index: 1;
+  align-self: center;
 }
