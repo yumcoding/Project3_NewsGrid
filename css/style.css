@@ -59,6 +59,29 @@ h6 {
   overflow: hidden;
 }
 
+.btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 0.8rem;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+.btn-dark {
+  background: var(--dark-color);
+}
+
 /* Navigation */
 
 #main-nav {
