@@ -105,14 +105,17 @@ h6 {
 
 .bg-dark {
   background: var(--dark-color);
+  color: #fff;
 }
 
 .bg-primary {
   background: var(--primary-color);
+  color: #fff;
 }
 
 .bg-secondary {
   background: var(--secondary-color);
+  color: #fff;
 }
 
 /* Navigation */
