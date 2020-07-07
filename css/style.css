@@ -234,3 +234,55 @@ h6 {
 #main-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
 }
+
+/* Footer */
+
+#main-footer {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+#main-footer .footer-container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.2rem;
+}
+
+.footer-container img {
+  width: 140px;
+}
+
+.footer-container input[type="email"] {
+  padding: 0.5rem;
+  width: 80%;
+}
+
+.footer-container input[type="submit"] {
+  width: 80%;
+  margin-top: 0.5rem;
+}
+
+.footer-container ul li {
+  padding: 0.5rem;
+  border-bottom: #555 dotted 1px;
+}
+
+.footer-container ul li:last-child {
+  border: none;
+}
+
+.footer-container ul li a {
+  color: #fff;
+}
+.footer-container ul li a:hover {
+  color: var(--primary-color);
+}
+
+#main-footer .footer-container > *:last-child {
+  background: #444;
+  grid-column: 1 / span 4;
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+}
