@@ -103,6 +103,18 @@ h6 {
   background: var(--dark-color);
 }
 
+.bg-dark {
+  background: var(--dark-color);
+}
+
+.bg-primary {
+  background: var(--primary-color);
+}
+
+.bg-secondary {
+  background: var(--secondary-color);
+}
+
 /* Navigation */
 
 #main-nav {
